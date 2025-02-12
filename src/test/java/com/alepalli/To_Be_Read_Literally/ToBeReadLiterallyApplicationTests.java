@@ -1,4 +1,4 @@
-package com.alepalli.To_Be_Read_literally;
+package com.alepalli.To_Be_Read_Literally;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -12,7 +12,7 @@
 	<artifactId>To-Be-Read-literally</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>To-Be-Read-literally</name>
-	<description>TBRly (To Be Read, literally!) è un progetto che permette di organizzare e gestire la propria lettura, tenendo traccia dei libri letti e in lettura, aggiungendo recensioni e partecipando a sfide di lettura. Offre anche suggerimenti personalizzati, quiz, un book club, eventi live e altre funzionalità interattive per arricchire l’esperienza di lettura.</description>
+	<description>TBRly (To Be Read, literally!) è un progetto che permette di organizzare e gestire la propria lettura</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -35,9 +35,14 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<version>3.5.1</version>
+		</dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -50,10 +55,10 @@
 			<groupId>org.springframework.session</groupId>
 			<artifactId>spring-session-core</artifactId>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.thymeleaf.extras</groupId>
 			<artifactId>thymeleaf-extras-springsecurity6</artifactId>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -62,20 +67,15 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 
 	<build>
